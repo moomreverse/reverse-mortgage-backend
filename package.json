@@ -1,0 +1,24 @@
+{
+  "name": "reverse-mortgage-backend",
+  "version": "1.0.0",
+  "description": "Backend API for reverse mortgage application form with Auth0 integration",
+  "main": "api/submit-application.js",
+  "scripts": {
+    "start": "node api/submit-application.js",
+    "dev": "vercel dev"
+  },
+  "dependencies": {
+    "auth0": "^4.0.1"
+  },
+  "engines": {
+    "node": ">=14.x"
+  },
+  "keywords": [
+    "reverse-mortgage",
+    "auth0",
+    "api",
+    "backend"
+  ],
+  "author": "Mutual of Omaha Reverse Mortgage",
+  "license": "MIT"
+}
