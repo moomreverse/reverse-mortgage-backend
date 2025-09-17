@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "functions": {
+    "api/submit-application.js": {
+      "runtime": "nodejs18.x"
+    }
+  },
+  "env": {
+    "AUTH0_DOMAIN": "@auth0_domain",
+    "AUTH0_M2M_CLIENT_ID": "@auth0_m2m_client_id", 
+    "AUTH0_M2M_CLIENT_SECRET": "@auth0_m2m_client_secret"
+  }
+}
